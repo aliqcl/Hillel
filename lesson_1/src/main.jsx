@@ -14,7 +14,7 @@ const Description = ({textStyle}) => {
 
 createRoot(document.getElementById('root')).render(
   <>
-    <Heading color="crimson" text="Hello, world!"/>,
+    <Heading color="crimson" text="Hello, world!"/>
     <Description textStyle="italic"/>
   </>
 );
