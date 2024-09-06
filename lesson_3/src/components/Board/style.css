@@ -1,0 +1,47 @@
+* {
+ background-color: lightgrey;
+}
+
+.board {
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    justify-content: center;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
+    background-color: white;
+}
+
+li {
+    list-style-type: none;
+    padding: 15px;
+    margin: 15px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px dashed blue;
+}
+
+button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    width: 120px;
+}
+  
