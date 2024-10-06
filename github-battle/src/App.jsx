@@ -1,9 +1,6 @@
 import React from 'react';
-import Form from './components/Form/Form';
+import Battle from './components/Battle/Battle';
 
 
-function App() {
-    return(< Form />)
-}
+export default function App() {return ( <Battle /> )}
 
-export default App
